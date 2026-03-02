@@ -338,3 +338,9 @@ label {
     background-color: white;
     color: black;
 }
+
+/* @media (max-width: 375px) {
+    .sliderImg {
+        width: 500px;
+    }
+} */
