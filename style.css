@@ -25,18 +25,28 @@ nav {
     justify-content: space-between;
 }
 
+.navItem{
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: rgba(128, 128, 128, 0.884);
+}
+
 .search {
     display: flex;
     align-items: center;
     background-color: gray;
     padding: 10px 20px;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .searchInput {
     border: none;
     background-color: transparent;
 }
+
 
 .searchInput::placeholder {
     color: lightgray;
@@ -59,6 +69,10 @@ nav {
     cursor: pointer;
     color: lightgray;
     font-weight: 400;
+}
+
+.menuItem:hover {
+    color: gray;
 }
 
 /* SLIDER STYLING */
@@ -166,4 +180,36 @@ nav {
 }
 .sliderItem:nth-child(5) .sliderPrice{
     color: cornsilk;
+}
+
+/* FEATURES STYLING */
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureDesc {
+    color: gray;
+    width: 50%;
+    height: 100px;
 }
