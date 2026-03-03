@@ -81,7 +81,11 @@ nav {
 
 /* SLIDER STYLING */
 .slider {
-    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    background: url("./img/—Pngtree—dark\ stone\ texture\ black\ brick_13300781.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     overflow: hidden;
 }
@@ -602,4 +606,13 @@ footer {
         width: 90%;
         padding: 20px;
     }
+}
+
+.sliderImg:hover {
+    transform: scale(1.025);
+}
+
+.galleryItem:hover {
+    transform: translateY(-15px);
+    transition: all 0.3s ease-in-out;
 }
